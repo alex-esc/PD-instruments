@@ -1,6 +1,6 @@
 #N canvas -8 -8 1920 1037 12;
-#X obj 11 95 hradio 15 1 0 32 empty empty empty 0 -8 0 10 -262144 -1
--1 11;
+#X obj 10 111 hradio 15 1 0 32 empty empty empty 0 -8 0 10 -262144
+-1 -1 14;
 #N canvas -8 -8 1920 1037 counter 0;
 #X msg 508 160 tempo \$1 permin;
 #X obj 370 273 f;
@@ -25,7 +25,7 @@
 #X obj 111 434 s setSteps;
 #X obj 409 302 r setSteps;
 #X text 144 106 on/off;
-#X obj 125 108 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 125 108 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X floatatom 244 324 5 0 0 0 - - -;
 #X obj 244 352 s pwrOnOff;
@@ -211,7 +211,7 @@
 #X connect 98 0 97 0;
 #X connect 99 0 98 0;
 #X coords 0 -1 1 1 140 65 2 100 100;
-#X restore 11 15 pd counter;
+#X restore 10 31 pd counter;
 #N canvas -8 -8 1920 1037 DrumkKits 0;
 #N canvas -1267 204 578 454 kickst1 0;
 #X obj 22 5 inlet;
@@ -513,7 +513,7 @@
 #X connect 96 0 11 0;
 #X connect 97 0 13 0;
 #X coords 0 -1 1 1 200 80 2 100 100;
-#X restore 154 9 pd DrumkKits;
+#X restore 153 25 pd DrumkKits;
 #N canvas -8 -8 1920 1037 newSteper 0;
 #X obj 94 -580 spigot;
 #X obj 94 -559 s kt;
@@ -522,7 +522,7 @@
 #X obj 94 -496 spigot;
 #X obj 94 -475 s sh;
 #X obj 94 -606 t b b b;
-#X obj 102 106 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 102 106 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 102 -451 t f, f 1;
 #X obj 102 140 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
@@ -570,10 +570,10 @@
 #X obj 259 -496 spigot;
 #X obj 259 -475 s sh;
 #X obj 259 -606 t b b b;
-#X obj 153 106 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 153 106 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 153 -451 t f, f 1;
-#X obj 153 140 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 153 140 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 153 -381 t f, f 1;
 #X obj 153 123 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
@@ -624,7 +624,7 @@
 #X obj 204 140 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 204 -381 t f, f 1;
-#X obj 204 123 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 204 123 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 204 -416 t f, f 1;
 #X obj 479 -580 spigot;
@@ -650,7 +650,7 @@
 #X obj 534 -496 spigot;
 #X obj 534 -475 s sh;
 #X obj 534 -606 t b b b;
-#X obj 238 106 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 238 106 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 238 -451 t f, f 1;
 #X obj 238 140 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
@@ -669,7 +669,7 @@
 #X obj 255 106 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 255 -451 t f, f 1;
-#X obj 255 140 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 255 140 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 255 -381 t f, f 1;
 #X obj 255 123 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
@@ -688,7 +688,7 @@
 #X obj 272 140 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 272 -381 t f, f 1;
-#X obj 272 123 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 272 123 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 272 -416 t f, f 1;
 #X obj 699 -580 spigot;
@@ -698,7 +698,7 @@
 #X obj 699 -496 spigot;
 #X obj 699 -475 s sh;
 #X obj 699 -606 t b b b;
-#X obj 289 106 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 289 106 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 289 -451 t f, f 1;
 #X obj 289 140 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
@@ -1853,12 +1853,12 @@
 #X connect 518 31 409 0;
 #X connect 519 0 518 0;
 #X coords 0 -1 1 1 557 60 2 100 100;
-#X restore 11 115 pd newSteper;
+#X restore 10 131 pd newSteper;
 #X f 59;
 #N canvas -844 208 450 300 shotcutKeys 0;
 #X msg 27 110 \; pd dsp 1;
 #X obj 27 79 loadbang;
-#X obj 102 102 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 102 102 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 107 189 s enableKeys;
 #X msg 107 65 0;
@@ -1868,12 +1868,12 @@
 #X connect 2 0 3 0;
 #X connect 4 0 2 0;
 #X coords 0 -1 1 1 200 20 2 100 100;
-#X restore 361 16 pd shotcutKeys;
-#X text 356 38 A = Kick;
-#X text 422 38 S = Snare;
-#X text 493 38 D = Hi-hat;
-#X text 400 70 Space = on/off;
-#X text 384 55 Up/Down = 13/32 steps;
-#X text 493 177 by alexesc;
+#X restore 360 32 pd shotcutKeys;
+#X text 355 54 A = Kick;
+#X text 421 54 S = Snare;
+#X text 492 54 D = Hi-hat;
+#X text 399 86 Space = on/off;
+#X text 383 71 Up/Down = 13/32 steps;
+#X text 492 193 by alexesc;
 #X connect 0 0 3 0;
 #X connect 1 0 0 0;
