@@ -1,15 +1,19 @@
 # FIREPLACE DRUM SEQUENCER
 
-![](/images/1.jpg)
+
 
 > Make some marshmallows, grab your guitar and sing a song with a smooth beat around the bonfire.
 
 Play a song with a simple rhythm track! FIREPLACE is a simple drum sequencer built to play along with you. FIREPLACE is great for playing acoustic and unplugged covers.
 
+![](images/1.jpg)
+
 
 ## Play on the go
 
 FIREPLACE runs on a computer, smartphone or tablet. Take the beat with you to your next road trip.
+
+![](images/3.jpg)
 
 ## Built in rhythms
 
@@ -22,6 +26,8 @@ Includes 18 presets and you can modify them or program your own patterns.
 Add drum fills and trigger them on the spot, bring in the hi-hats on the verse and bring it back on the chorus and use different drum kits on different songs.
 
 FIREPLACE allows you to sequence a pattern or play it live with built in pads, add variation to a 16 step pattern with a toggle-able 32 step mode and 3 different drum sounds: Basic drum machine sounds, classic 80´s style drums and a realistic acoustic drum kit.
+
+![](images/2.jpg)
 
 ## Customizable and modular at heart
 
@@ -37,13 +43,13 @@ You need to install Pure Data for this sequencer to run. [Get pure data here](ht
 
 ## FIREPLACE for your phone or tablet
 
-### iPhones and iPads
+### Android, iPhones & iPad
 
-Download and install [MobMuPlat](https://apps.apple.com/us/app/mobmuplat/id597679399), this app runs desktop pure data apps like FIREPLACE on your phone.
+1. Download and install MobMuPlat *([iPhone/iPad](https://apps.apple.com/us/app/mobmuplat/id597679399) or [Android/Samsung](https://play.google.com/store/apps/details?id=com.iglesiaintermedia.mobmuplat&hl=en_US&gl=US))*, this app runs desktop pure data apps like FIREPLACE on your phone.
 
-Now click here to download FIREPLACE, next you need to extract the contents on the MobMuPlat folder. Here's a small guide, scroll down to the section called ["Loading it onto your device"](https://danieliglesia.com/mobmuplat/doc/index.htm).
+2. Now click here to download FIREPLACE, next you need to extract the contents on the MobMuPlat folder. Here's a small guide, scroll down to the section called ["Loading it onto your device"](https://danieliglesia.com/mobmuplat/doc/index.htm).
 
-To run the patch on your phone or tablet you need to download an app called MobMuPlat. Then import both files (`.pd` and `.mmp`) into your device's MobMuPLat folder (once the app is installed you should have a folder called mobmuplat, use your device file browser to move the files into the mobmuplat folder). Now open the MobMuPlat app and browse the list of patches until you see the sequencer and tap on it to open it. (more detailed docuemntation soon to come)
+3. Now open the MobMuPlat app and browse the list of patches until you see the sequencer and tap on it to open it.
 
 ## Why I made FIREPLACE:
 
@@ -54,7 +60,6 @@ It was such a shame that I cant bring my piano with me to perform with everyone 
 So I decided to buy a melodica! Oh, and also to make a drum machine for my phone. That was cool too.
 
 
-Enjoy!
 
 ## Get your own custom made instrument!
 
